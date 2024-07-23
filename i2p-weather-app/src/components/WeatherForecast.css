@@ -1,0 +1,47 @@
+.weather-forecast {
+  text-align: center;
+}
+
+.simplified-weather-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.simplified-weather-card {
+  background-color: hsl(216, 74%, 16%);
+  border: 1px solid #002064;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
+  margin: 10px;
+  padding: 5px 5px;
+  width: 11%;
+  min-width: 130px;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.simplified-weather-card h3 {
+  margin-top: 0;
+}
+
+.simplified-weather-card p {
+  margin-bottom: 0;
+}
+
+.detailed-weather-cards {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10%;
+}
+
+.detailed-weather-card {
+  background-color: hsl(216, 74%, 16%);
+  border: 1px solid #002064;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px hsla(0, 0%, 0%, 0.1);
+  margin: 10px 10px;
+  padding: 5px 5px;
+  box-sizing: border-box;
+}
